@@ -1,6 +1,7 @@
 import React from 'react'
 import {
     HeaderWrapper,
+    HeaderLeftWrapper,
     HeaderMainText,
     HeaderBtn,
     HeaderImg,
@@ -10,9 +11,11 @@ import {
 const Header = ({headerSVG}) => {
     return (
         <HeaderWrapper>
-            <HeaderMainText>I build amazing websites you and your customers will love</HeaderMainText>
-            <HeaderBtn>Get in touch</HeaderBtn>
-            
+            <HeaderLeftWrapper>
+                <HeaderMainText>I build amazing websites you and your customers will love</HeaderMainText>
+                <HeaderBtn>Get in touch</HeaderBtn>
+            </HeaderLeftWrapper>
+           
             <HeaderImg>
                 <HeaderSVG src={headerSVG}/>
             </HeaderImg>

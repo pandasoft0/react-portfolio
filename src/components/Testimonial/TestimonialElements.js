@@ -1,10 +1,17 @@
 import styled from "styled-components";
+import {device} from '../../breakpoints'
 
 export const TestimonialContainer = styled.section`
     margin-top: 5rem;
     position: relative;
     height: 68rem;
     margin-bottom: 8rem;
+
+    @media ${device.mobileL} {
+        margin: 0;
+        width: 424px;
+    }
+    
 `
 
 export const LeftTestimonial = styled.div`
@@ -12,6 +19,11 @@ export const LeftTestimonial = styled.div`
     top: 18rem;
     max-width: 20vw;
     margin-left: 10rem;
+
+    @media ${device.tablet} {
+        position: relative;
+        
+    }
 `
 
 export const LeftTestimonialHeading = styled.h1`
@@ -32,6 +44,12 @@ export const RightTestimonial = styled.div`
     top: 0;
     right: 0;
     color: #fff;
+
+    @media ${device.tablet} {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
 `
 
 
@@ -46,6 +64,11 @@ export const Testimonial1 = styled.div`
         transform: translateX(-0.5%);
         transition: all .2s;
     }
+
+    @media ${device.tablet} {
+        border-radius: 5rem;
+        margin: 2rem;
+    }
 `
 export const Testimonial2 = styled.div`
     background-color: #051937;
@@ -58,6 +81,15 @@ export const Testimonial2 = styled.div`
         transform: translateX(-0.5%);
         transition: all .2s;
     }
+
+    @media ${device.tablet} {
+        margin-left: 0;
+    }
+
+    @media ${device.tablet} {
+        border-radius: 5rem;
+        margin: 2rem;
+    }
 `
 export const Testimonial3 = styled.div`
     background-color: #051937;
@@ -67,6 +99,11 @@ export const Testimonial3 = styled.div`
     &:hover {
         transform: translateX(-0.5%);
         transition: all .2s;
+    }
+
+    @media ${device.tablet} {
+        border-radius: 5rem;
+        margin: 2rem;
     }
 `
 

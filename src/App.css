@@ -8,13 +8,18 @@
   box-sizing: inherit;
 }
 
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  max-width: 100vw;
+
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+
 }
 
 @keyframes pulsate {

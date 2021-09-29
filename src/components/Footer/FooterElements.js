@@ -1,9 +1,14 @@
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
+import {device} from '../../breakpoints'
 
 export const FooterWrapper = styled.footer`
     background-color: #23252F;
     padding: 5rem;
+
+    @media ${device.tablet} {
+     
+    }
 `
 
 export const FooterImg = styled.img`

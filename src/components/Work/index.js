@@ -12,8 +12,8 @@ const Work = ({laptop, mobile}) => {
     return (
         <WorkWrapper>
             <MockupWrapper>
-                <Laptop src={laptop}/>
-                <Mobile src={mobile}/>
+                {/* <Laptop src={laptop}/>
+                <Mobile src={mobile}/> */}
             </MockupWrapper>
 
             <ProjectMenu>
