@@ -18,6 +18,15 @@ export const ServiceGrid = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 20rem);
     gap: 5rem;
+
+
+    @media ${device.mobileL} {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 20rem);
+        gap: 5rem;
+    }
+    
 `
 
 

@@ -9,6 +9,7 @@ export const NavWrapper = styled.nav`
     justify-content: space-between;
     align-items: center;
     background-color: #051937;
+    /* white-space: nowrap; */
     
     @media ${device.mobileL} {
      

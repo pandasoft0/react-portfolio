@@ -43,6 +43,8 @@ export const HeaderMainText = styled.p`
         text-align: center;
     }
 
+    
+
 `
 
 export const HeaderBtn = styled.button`
@@ -72,6 +74,10 @@ export const HeaderBtn = styled.button`
     
     @media ${device.mobileL} {
         
+    }
+
+    @media ${device.laptop} {
+        white-space: nowrap;
     }
 `
 
