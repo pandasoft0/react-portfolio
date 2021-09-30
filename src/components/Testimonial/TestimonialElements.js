@@ -40,6 +40,7 @@ export const LeftTestimonial = styled.div`
 export const LeftTestimonialHeading = styled.h1`
     font-size: 3.125rem;
     margin-bottom: 3rem;
+    color: #051937;
 `   
 
 export const LeftTestimonialSub = styled.p`
@@ -64,12 +65,12 @@ export const RightTestimonial = styled.div`
 `
 
 
-export const Testimonial1 = styled.div`
+export const Testimonial1 = styled.figure`
     background-color: #051937;
     padding: 2rem 2rem;
     margin-bottom: 5rem;
     margin-right: 0;
-
+    border-radius: 1.2rem;
 
  
     &:hover {
@@ -82,11 +83,12 @@ export const Testimonial1 = styled.div`
         margin: 2rem;
     }
 `
-export const Testimonial2 = styled.div`
+export const Testimonial2 = styled.figure`
     background-color: #051937;
     padding: 2rem 2rem;
     margin-left: 9rem;
     margin-bottom: 5rem;
+    border-radius: 1.2rem;
 
 
     &:hover {
@@ -103,9 +105,10 @@ export const Testimonial2 = styled.div`
         margin: 2rem;
     }
 `
-export const Testimonial3 = styled.div`
+export const Testimonial3 = styled.figure`
     background-color: #051937;
     padding: 2rem 2rem;
+    border-radius: 1.2rem;
    
 
     &:hover {
@@ -128,11 +131,11 @@ export const PersonCompany = styled.p`
     font-size: 1rem;
 `
 
-export const PersonName = styled.p`
+export const PersonName = styled.figcaption`
     font-size: 2rem;
 `
 
-export const RightTestimonialText = styled.p`
+export const RightTestimonialText = styled.blockquote`
     font-size: 1.6rem;
     padding-top: 2rem;
 `
