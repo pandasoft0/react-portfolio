@@ -4,12 +4,11 @@ import {device} from '../../breakpoints'
 
 
 export const NavWrapper = styled.nav`
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(to right, #33345A, #051937);
-    
     
     
     @media ${device.mobileL} {
