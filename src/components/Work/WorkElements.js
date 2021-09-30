@@ -18,6 +18,7 @@ export const MockupWrapper = styled.div`
 
 export const Laptop = styled.img`
     height: 60rem;
+    display: none;
    
     @media ${device.tablet} {
       height: auto;
@@ -36,6 +37,7 @@ export const Mobile = styled.img`
     height: 50rem;
     border: none;
     z-index: 100;
+    display: none;
 
     @media ${device.tablet} {
         top: 1rem;
