@@ -5,10 +5,17 @@ import {device} from '../../breakpoints'
 export const FooterWrapper = styled.footer`
     background-color: #23252F;
     padding: 5rem;
-
+    margin: 0;
+  
     @media ${device.tablet} {
-     
+  
     }
+
+    
+    @media ${device.mobileS} {
+        width: 42rem;
+    }
+
 `
 
 export const FooterImg = styled.img`

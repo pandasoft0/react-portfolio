@@ -6,12 +6,7 @@ export const HeaderWrapper = styled.section`
     background-color: #051937;   
     display: flex;
     flex-direction: row;
-    /* height: 100vh; */
 
-    @media ${device.mobileL} {
-        
-    }
-    
 `
 
 export const HeaderLeftWrapper = styled.div`
@@ -30,14 +25,6 @@ export const HeaderMainText = styled.p`
     text-align: left;
     margin-top: 10rem;
 
-
-    @media ${device.mobileS} {
-        /* color: red;  */
-    }
-   
-    @media ${device.mobileL} {
-        color: red;
-    }
     
     @media ${device.tablet} {
         text-align: center;

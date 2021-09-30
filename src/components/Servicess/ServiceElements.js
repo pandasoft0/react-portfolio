@@ -128,7 +128,6 @@ export const ServiceLogo3 = styled.div`
 export const Service4 = styled.div`
     /* padding: 7rem; */
     padding: 5rem 9rem;
-    
     border-radius: 1.5rem;
     background-image: linear-gradient(to left top, #D1EEEB, #BEF6E4, rgba(0,0,0, .12));
     position: relative;

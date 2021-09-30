@@ -7,13 +7,8 @@ export const TestimonialContainer = styled.section`
     height: 68rem;
     margin-bottom: 8rem;
 
-    @media ${device.mobileL} {
-        margin: 0;
-        width: 424px;
-    }
-
-    @media ${device.laptop} {
-        height: 100%;
+    @media ${device.tablet} {
+        height : auto;
     }
 `
 
@@ -31,10 +26,6 @@ export const LeftTestimonial = styled.div`
         text-align: center;
         
     }
-
-    @media ${device.laptop} {
-       
-    }
 `
 
 export const LeftTestimonialHeading = styled.h1`
@@ -49,7 +40,6 @@ export const LeftTestimonialSub = styled.p`
 `
 
 export const RightTestimonial = styled.div`
-    /* background-color: red; */
     width: 60%;
     position: absolute;
     top: 0;
@@ -69,7 +59,6 @@ export const Testimonial1 = styled.figure`
     background-color: #051937;
     padding: 2rem 2rem;
     margin-bottom: 5rem;
-    margin-right: 0;
     border-radius: 1.2rem;
 
  
@@ -79,14 +68,12 @@ export const Testimonial1 = styled.figure`
     }
 
     @media ${device.tablet} {
-        border-radius: 5rem;
-        margin: 2rem;
+        border-radius: 1.2rem;
     }
 `
 export const Testimonial2 = styled.figure`
     background-color: #051937;
     padding: 2rem 2rem;
-    margin-left: 9rem;
     margin-bottom: 5rem;
     border-radius: 1.2rem;
 
@@ -97,19 +84,13 @@ export const Testimonial2 = styled.figure`
     }
 
     @media ${device.tablet} {
-        margin-left: 0;
-    }
-
-    @media ${device.tablet} {
-        border-radius: 5rem;
-        margin: 2rem;
+        border-radius: 1.2rem;
     }
 `
 export const Testimonial3 = styled.figure`
     background-color: #051937;
     padding: 2rem 2rem;
     border-radius: 1.2rem;
-   
 
     &:hover {
         transform: translateX(-0.5%);
@@ -117,8 +98,7 @@ export const Testimonial3 = styled.figure`
     }
 
     @media ${device.tablet} {
-        border-radius: 5rem;
-        margin: 2rem;
+        border-radius: 1.2rem;
     }
 `
 
@@ -127,7 +107,6 @@ export const TestimonialImage = styled.img`
 `
 
 export const PersonCompany = styled.p`
-    /* color: white; */
     font-size: 1rem;
 `
 
