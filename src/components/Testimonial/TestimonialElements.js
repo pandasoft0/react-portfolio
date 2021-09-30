@@ -69,6 +69,8 @@ export const Testimonial1 = styled.div`
     padding: 2rem 2rem;
     margin-bottom: 5rem;
     margin-right: 0;
+
+
  
     &:hover {
         transform: translateX(-0.5%);

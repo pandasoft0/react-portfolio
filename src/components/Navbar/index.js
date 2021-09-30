@@ -6,8 +6,11 @@ import {
     NavLogoText,
     NavMenu,
     NavLink,
-    NavBtn
+    NavBtn,
+    NavMobileMenu
 } from './NavbarElements'
+import {FaBars} from 'react-icons/fa'
+
 
 const Navbar = ({profile}) => {
     return (
@@ -21,10 +24,15 @@ const Navbar = ({profile}) => {
               <NavLink>Home</NavLink>
               <NavLink>Projects</NavLink>
               <NavLink>Services</NavLink>
+    
           </NavMenu>
 
             <NavBtn>Hire Me</NavBtn>
-        
+            
+            <NavMobileMenu>
+                <FaBars />
+            </NavMobileMenu>
+      
         </NavWrapper>
     )
 }

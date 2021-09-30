@@ -56,6 +56,12 @@ export const ProjectMenu = styled.div`
       align-items: center;
       text-align: center;
     }
+
+    @media ${device.mobileL} {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 `
 
 export const ProjectLink = styled(Link)`

@@ -31,7 +31,7 @@ export const ServiceGrid = styled.div`
 
 
 export const Service1 = styled.div`
-    padding: 7rem;
+    padding: 5rem 9rem;
     border-radius: 1.5rem;
     /* background-color: #D1EEEB; */
     background-image: linear-gradient(to right bottom, #D1EEEB, #BEF6E4, rgba(0,0,0, .12));
@@ -63,7 +63,7 @@ export const ServiceLogo1 = styled.div`
 `
 
 export const Service2 = styled.div`
-    padding: 7rem;
+    padding: 5rem 9rem;
     border-radius: 1.5rem;
     background-image: linear-gradient(to left bottom, #D1EEEB, #BEF6E4, rgba(0,0,0, .12));
     position: relative;
@@ -94,7 +94,8 @@ export const ServiceLogo2 = styled.div`
 `
 
 export const Service3 = styled.div`
-    padding: 7rem;
+    /* padding: 7rem; */
+    padding: 5rem 9rem;
     border-radius: 1.5rem;
     background-image: linear-gradient(to right top, #D1EEEB, #BEF6E4, rgba(0,0,0, .12));
     position: relative;
@@ -125,7 +126,9 @@ export const ServiceLogo3 = styled.div`
 `
 
 export const Service4 = styled.div`
-    padding: 7rem;
+    /* padding: 7rem; */
+    padding: 5rem 9rem;
+    
     border-radius: 1.5rem;
     background-image: linear-gradient(to left top, #D1EEEB, #BEF6E4, rgba(0,0,0, .12));
     position: relative;
