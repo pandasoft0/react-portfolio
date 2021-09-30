@@ -20,12 +20,17 @@ export const ServiceGrid = styled.div`
     gap: 5rem;
 
 
-    @media ${device.mobileL} {
+    @media ${device.tablet} {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 20rem);
+        grid-template-columns: 2fr;
         gap: 5rem;
     }
+
+    @media ${device.mobileM} {
+        display: flex;
+        flex-direction: column;
+    }
+
     
 `
 
@@ -33,7 +38,6 @@ export const ServiceGrid = styled.div`
 export const Service1 = styled.div`
     padding: 5rem 9rem;
     border-radius: 1.5rem;
-    /* background-color: #D1EEEB; */
     background-image: linear-gradient(to right bottom, #D1EEEB, #BEF6E4, rgba(0,0,0, .12));
     position: relative;
     box-shadow:  0.2rem 0.25rem rgba(0, 0, 0, 0.2);
@@ -47,6 +51,7 @@ export const Service1 = styled.div`
     @media ${device.tablet} {
        padding: 5rem 3rem 3rem 4rem;
     }
+    
 `
 
 export const ServiceLogo1 = styled.div`
@@ -167,7 +172,7 @@ export const ServiceMessage = styled.p`
     font-size: 1.6rem;
     color: #051937;
 
-    @media ${device.tablet} {
+    @media ${device.mobileL} {
         
     }
 `

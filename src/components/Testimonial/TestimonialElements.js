@@ -24,8 +24,13 @@ export const LeftTestimonial = styled.div`
         margin-left: 0;
         position: relative;
         text-align: center;
-        
+        padding: 2.5rem;
     }
+
+    @media ${device.mobileM} {
+        padding: 2.5rem;
+    }
+
 `
 
 export const LeftTestimonialHeading = styled.h1`
@@ -56,7 +61,7 @@ export const RightTestimonial = styled.div`
 
 
 export const Testimonial1 = styled.figure`
-    background-color: #051937;
+    background-image: linear-gradient(to right, #33345A, #051937);
     padding: 2rem 2rem;
     margin-bottom: 5rem;
     border-radius: 1.2rem;
@@ -72,7 +77,7 @@ export const Testimonial1 = styled.figure`
     }
 `
 export const Testimonial2 = styled.figure`
-    background-color: #051937;
+    background-image: linear-gradient(to right, #33345A, #051937);
     padding: 2rem 2rem;
     margin-bottom: 5rem;
     border-radius: 1.2rem;
@@ -88,7 +93,7 @@ export const Testimonial2 = styled.figure`
     }
 `
 export const Testimonial3 = styled.figure`
-    background-color: #051937;
+    background-image: linear-gradient(to right, #33345A, #051937);
     padding: 2rem 2rem;
     border-radius: 1.2rem;
 

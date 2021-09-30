@@ -8,7 +8,8 @@ export const NavWrapper = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #051937;
+    background-image: linear-gradient(to right, #33345A, #051937);
+    
     
     
     @media ${device.mobileL} {

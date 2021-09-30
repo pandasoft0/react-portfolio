@@ -2,8 +2,9 @@ import styled from "styled-components";
 import {device} from '../../breakpoints'
 
 export const HeaderWrapper = styled.section`
-    padding: 2rem 5rem;    
-    background-color: #051937;   
+    padding: 2rem 5rem;  
+    background-image: linear-gradient(to right, #33345A, #051937);
+    /* background-color: #051937;    */
     display: flex;
     flex-direction: row;
 
@@ -29,8 +30,6 @@ export const HeaderMainText = styled.p`
     @media ${device.tablet} {
         text-align: center;
     }
-
-    
 
 `
 
