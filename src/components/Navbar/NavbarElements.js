@@ -81,6 +81,7 @@ export const NavMobileMenu = styled.div`
     @media ${device.mobileL} {
     display: block;
     position: sticky;
+    top: 4rem;
     right: 0;
     color: white;
     font-size: 5rem;
