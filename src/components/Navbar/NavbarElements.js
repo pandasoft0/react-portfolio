@@ -84,7 +84,7 @@ export const NavMobileMenu = styled.div`
     top: 4rem;
     right: 0;
     color: white;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 `
 
