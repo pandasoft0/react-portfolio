@@ -4,7 +4,8 @@ import {
     FooterImg,
     FooterText,
     FooterLinksWrapper,
-    FooterLink
+    FooterLink,
+    FooterMessage
 } from './FooterElements'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
@@ -27,6 +28,8 @@ const Footer = ({profile}) => {
                     <FaTwitter />
                 </FooterLink>
             </FooterLinksWrapper>
+
+            <FooterMessage>Built by Pius Prince &copy; by Pius Prince</FooterMessage>
         </FooterWrapper>
     )
 }

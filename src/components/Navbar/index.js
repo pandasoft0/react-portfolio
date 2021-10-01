@@ -17,13 +17,13 @@ const Navbar = ({profile}) => {
         <NavWrapper>
             <NavLogo>
                 <NavLogoImg src={profile}/> 
-                <NavLogoText>Pius Prince</NavLogoText>
+                <NavLogoText to='#'>Pius Prince</NavLogoText>
             </NavLogo>
           
           <NavMenu>
-              <NavLink>Home</NavLink>
-              <NavLink>Projects</NavLink>
-              <NavLink>Services</NavLink>
+              <NavLink to='#'>Home</NavLink>
+              <NavLink to='#'>Projects</NavLink>
+              <NavLink to='#'>Services</NavLink>
     
           </NavMenu>
 

@@ -14,7 +14,7 @@ import {
     Testimonial3
 } from './TestimonialElements'
 
-const Testimonial = () => {
+const Testimonial = ({profile}) => {
     return (
         <TestimonialContainer>
             <LeftTestimonial>
@@ -28,7 +28,7 @@ const Testimonial = () => {
 
             <RightTestimonial>
                 <Testimonial1>
-                    <TestimonialImage></TestimonialImage>
+                    <TestimonialImage src={profile}/>
                     <PersonName>Person 1</PersonName>
                     <PersonCompany>Company 1</PersonCompany>
                     <RightTestimonialText>
@@ -38,7 +38,7 @@ const Testimonial = () => {
                 </Testimonial1>
 
                 <Testimonial2>
-                    <TestimonialImage></TestimonialImage>
+                    <TestimonialImage src={profile}/>
                     <PersonName>Person 2</PersonName>
                     <PersonCompany>Company 2</PersonCompany>
                     <RightTestimonialText>
@@ -48,7 +48,7 @@ const Testimonial = () => {
                 </Testimonial2>
 
                 <Testimonial3>
-                    <TestimonialImage></TestimonialImage>
+                    <TestimonialImage src={profile}/>
                     <PersonName>Person </PersonName>
                     <PersonCompany>Company 3</PersonCompany>
                     <RightTestimonialText>

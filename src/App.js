@@ -19,7 +19,7 @@ function App() {
         <Header headerSVG={headerSVG}/>
         <Work laptop= {laptop}  mobile= {mobile}/>
         <Servicess />
-        <Testimonial />
+        <Testimonial profile={profile}/>
         <Footer />
     </Router> 
   

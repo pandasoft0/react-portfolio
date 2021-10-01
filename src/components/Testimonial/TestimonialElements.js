@@ -2,13 +2,14 @@ import styled from "styled-components";
 import {device} from '../../breakpoints'
 
 export const TestimonialContainer = styled.section`
-    margin-top: 5rem;
+    margin-top: 15rem;
     position: relative;
     height: 68rem;
     margin-bottom: 8rem;
 
     @media ${device.tablet} {
         height : auto;
+        margin-bottom: 15rem;
     }
 `
 
@@ -106,7 +107,8 @@ export const Testimonial3 = styled.figure`
 `
 
 export const TestimonialImage = styled.img`
-
+    height: 4rem;
+    border-radius: 50%;
 `
 
 export const PersonCompany = styled.p`

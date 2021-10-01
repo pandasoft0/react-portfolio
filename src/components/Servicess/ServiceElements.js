@@ -3,7 +3,6 @@ import {device} from '../../breakpoints'
 
 export const ServiceWrapper = styled.section`
     margin: 5rem;
-    margin-bottom: 10rem;
 `
 
 export const ServiceHeading = styled.h1`

@@ -7,6 +7,7 @@ export const HeaderWrapper = styled.section`
     display: flex;
     flex-direction: row;
     height: 100vh;
+    border-radius: 0 0 2rem 2rem;
 
     @media ${device.mobileM} {
         height: 90vh;
