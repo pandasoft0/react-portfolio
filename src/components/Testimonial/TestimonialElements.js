@@ -23,7 +23,6 @@ export const LeftTestimonial = styled.div`
         max-width: 100%;
         margin-left: 0;
         position: relative;
-        text-align: center;
         padding: 2.5rem;
     }
 
@@ -54,7 +53,6 @@ export const RightTestimonial = styled.div`
     @media ${device.tablet} {
         position: relative;
         width: 100%;
-        text-align: center;
         margin-top: 10rem;
     }
 `
@@ -63,7 +61,7 @@ export const RightTestimonial = styled.div`
 export const Testimonial1 = styled.figure`
     background-image: linear-gradient(to right, #33345A, #051937);
     padding: 2rem 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     border-radius: 1.2rem;
 
  
@@ -79,7 +77,7 @@ export const Testimonial1 = styled.figure`
 export const Testimonial2 = styled.figure`
     background-image: linear-gradient(to right, #33345A, #051937);
     padding: 2rem 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     border-radius: 1.2rem;
 
 
@@ -121,5 +119,6 @@ export const PersonName = styled.figcaption`
 
 export const RightTestimonialText = styled.blockquote`
     font-size: 1.6rem;
+    font-weight: 100;
     padding-top: 2rem;
 `
