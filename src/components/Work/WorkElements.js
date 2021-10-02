@@ -5,8 +5,6 @@ import {device} from '../../breakpoints'
 export const WorkWrapper = styled.section`
     padding: 2rem 5rem;
     max-height: 90rem;
-
- 
 `
 
 export const MockupWrapper = styled.div`

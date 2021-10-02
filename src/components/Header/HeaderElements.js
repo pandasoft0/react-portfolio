@@ -13,12 +13,17 @@ export const HeaderWrapper = styled.section`
         height: 90vh;
     }
 
-   
 
 `
 
 export const HeaderLeftWrapper = styled.div`
     width: 45%;
+
+     @media screen and (min-width: 768px) and (max-width: 1091px) {
+         height: 100%;
+        margin-top: -5rem;
+    }
+
 
     @media ${device.tablet} {
         width: 100%;
@@ -28,7 +33,6 @@ export const HeaderLeftWrapper = styled.div`
     @media ${device.mobileL} {
        align-self: stretch;
        margin: 16rem 0;
-       width: 100%;
 
     }
 
@@ -38,16 +42,12 @@ export const HeaderLeftWrapper = styled.div`
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
-/* 
-    @media ${device.mobileS} {
-        margin: 1rem 0;
-        height: 100%;
-        padding-top: 2rem ;
-    } */
 
-    @media only ${device.mobileL} and (min-width: 425px) {
-        height: 100vh;
-        color: red;
+    @media ${device.mobileS} {
+
+        margin: 1rem 0;
+        height: 90%;
+        padding-top: 2rem ;
     }
 
     
@@ -61,6 +61,14 @@ export const HeaderMainText = styled.h1`
     text-align: left;
     margin-top: 10rem;
 
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-bottom: 2rem;
+    }
+
+    @media ${device.laptop} {
+        text-align: center;
+    }
+
     
     @media ${device.tablet} {
         text-align: center;
@@ -71,9 +79,7 @@ export const HeaderMainText = styled.h1`
     }
 
     
-    @media ${device.laptop} {
-        text-align: center;
-    }
+   
 `
 
 export const HeaderAltText = styled.h1`
@@ -94,6 +100,10 @@ export const HeaderAltText = styled.h1`
         text-align: center;
         margin: 1rem 0;
     }
+
+    @media screen and (min-width: 378px) and (max-width: 420px) {
+        margin-top: -3rem;
+    }
 `
 
 export const HeaderBtn = styled.button`
@@ -112,20 +122,32 @@ export const HeaderBtn = styled.button`
         transition: all .2s ease-in;
     }
 
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        margin-top: -8rem;
+        margin-left: 8rem;
+    }
+
 
     @media ${device.tablet} {
         margin-left: 40%;
     }
 
-
-    @media ${device.laptop} {
-        white-space: nowrap;
+    
+    @media screen and (min-width: 378px) and (max-width: 420px) {
+        margin-top: -3rem;
+        margin-left: 8rem;
     }
 
-    
+
     @media ${device.mobileL} {
         margin-left: 5rem;
     }
+
+    @media ${device.mobileS} {
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
 
 `
 
@@ -135,13 +157,11 @@ export const HeaderImg = styled.div`
     margin: 8rem 0rem 6rem 8rem;
     width: 50%;
 
-    @media ${device.tablet} {
-        display: none;
-    }
 
     @media ${device.laptop} {
         display: none;
     }
+
 
 `
 

@@ -10,14 +10,15 @@ export const NavWrapper = styled.nav`
     align-items: center;
     background-image: linear-gradient(to right, #33345A, #051937);
     
+    @media ${device.tablet} {
+        white-space: nowrap;
+    }
     
     @media ${device.mobileL} {
      
     }
 
-    @media ${device.tablet} {
-        white-space: nowrap;
-    }
+   
 `
 
 export const NavLogo = styled.div`

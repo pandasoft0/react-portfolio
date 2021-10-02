@@ -10,14 +10,14 @@ import Work from './components/Work';
 import Servicess from './components/Servicess'
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
-
+import {projects} from './components/Work/projects'
 
 function App() {
   return ( 
     <Router>
         <Navbar profile={profile}/>
         <Header headerSVG={headerSVG}/>
-        <Work laptop= {laptop}  mobile= {mobile}/>
+        <Work project={projects}/>
         <Servicess />
         <Testimonial profile={profile}/>
         <Footer />

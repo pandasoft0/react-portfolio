@@ -15,7 +15,7 @@ export const FooterWrapper = styled.footer`
 
     
     @media ${device.mobileS} {
-        width: 42rem;
+        width: 100%;
     }
 
 `
