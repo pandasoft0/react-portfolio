@@ -17,7 +17,7 @@ function App() {
     <Router>
         <Navbar profile={profile}/>
         <Header headerSVG={headerSVG}/>
-        <Work project={projects}/>
+        <Work project={projects} laptop={laptop} mobile={mobile}/>
         <Servicess />
         <Testimonial profile={profile}/>
         <Footer />

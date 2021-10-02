@@ -2,8 +2,8 @@ import React from 'react'
 import {
     WorkWrapper,
     MockupWrapper,
-    // Laptop,
-    // Mobile,
+    Laptop,
+    Mobile,
     ProjectMenu,
     ProjectLink
 } from './WorkElements'
@@ -31,8 +31,8 @@ const Work = ({laptop, mobile, project}) => {
     return (
         <WorkWrapper>
             <MockupWrapper>
-                {/* <Laptop src={laptop}/>
-                <Mobile src={mobile}/> */}
+                <Laptop src={laptop}/>
+                <Mobile src={mobile}/>
             </MockupWrapper>
 
             <ProjectMenu>
