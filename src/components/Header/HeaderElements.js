@@ -4,10 +4,12 @@ import {device} from '../../breakpoints'
 export const HeaderWrapper = styled.section`
     padding: 2rem 5rem;  
     background-image: linear-gradient(to right, #33345A, #051937);
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     height: 100vh;
     border-radius: 0 0 2rem 2rem;
+
+
 
     @media ${device.mobileM} {
         height: 90vh;
@@ -17,10 +19,18 @@ export const HeaderWrapper = styled.section`
 `
 
 export const HeaderLeftWrapper = styled.div`
-    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* @media screen and (min-width: 768px) {
+        padding-top: 5rem;
+    }
+
 
      @media screen and (min-width: 768px) and (max-width: 1091px) {
-         height: 100%;
+        height: 100%;
         margin-top: -5rem;
     }
 
@@ -48,7 +58,7 @@ export const HeaderLeftWrapper = styled.div`
         margin: 1rem 0;
         height: 90%;
         padding-top: 2rem ;
-    }
+    } */
 
     
 `
@@ -60,16 +70,14 @@ export const HeaderMainText = styled.h1`
     color: white;
     text-align: left;
     margin-top: 10rem;
+    overflow: hidden;
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         padding-bottom: 2rem;
+        text-align: left;
+        height: auto;
     }
 
-    @media ${device.laptop} {
-        text-align: center;
-    }
-
-    
     @media ${device.tablet} {
         text-align: center;
     }
@@ -107,13 +115,15 @@ export const HeaderAltText = styled.h1`
 `
 
 export const HeaderBtn = styled.button`
+    align-self: flex-start;
     padding: 1rem 5rem;
     cursor: pointer;
     background-color: #60ECBD;
     border-radius: 1rem;
     border: 0 solid;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     outline: none;
+    white-space: nowrap;
     animation: pulsate 1s infinite;
    
 
@@ -151,22 +161,22 @@ export const HeaderBtn = styled.button`
 
 `
 
-export const HeaderImg = styled.div`
+export const HeaderRightWrapper = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     margin: 8rem 0rem 6rem 8rem;
-    width: 50%;
 
-
+/* 
     @media ${device.laptop} {
         display: none;
-    }
+    } */
 
 
 `
 
 export const HeaderSVG = styled.img`
-    width: 100%;
+    background-size: cover;
 
 `
 
