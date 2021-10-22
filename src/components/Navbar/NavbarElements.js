@@ -13,6 +13,11 @@ export const NavWrapper = styled.nav`
     @media ${device.tablet} {
         white-space: nowrap;
     }
+
+    @media screen and (min-width: 425px) and (max-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
     
     @media ${device.mobileL} {
      
