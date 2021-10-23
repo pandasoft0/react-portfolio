@@ -20,7 +20,7 @@ function App() {
         <Work project={projects} laptop={laptop} mobile={mobile}/>
         <Servicess />
         <Testimonial profile={profile}/>
-        <Footer />
+        <Footer profile={profile}/>
     </Router> 
   
   );
