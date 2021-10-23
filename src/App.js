@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom'
-import profile from './images/profile.jpg'
+import profile from './images/profile1.webp'
 import headerSVG from './images/HeaderSVG.svg'
 import laptop from './images/laptop.png'
 import mobile from './images/mobile.png'

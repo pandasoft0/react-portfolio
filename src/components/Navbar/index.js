@@ -2,6 +2,7 @@ import React from 'react'
 import {
     NavWrapper,
     NavLogo,
+    NavLogoImgWrapper,
     NavLogoImg,
     NavLogoText,
     NavMenu,
@@ -16,7 +17,9 @@ const Navbar = ({profile}) => {
     return (
         <NavWrapper>
             <NavLogo>
-                <NavLogoImg src={profile} alt="profile image"/> 
+                <NavLogoImgWrapper>
+                    <NavLogoImg src={profile} alt="profile image"/> 
+                </NavLogoImgWrapper>
                 <NavLogoText to='#'>Pius Prince</NavLogoText>
             </NavLogo>
           

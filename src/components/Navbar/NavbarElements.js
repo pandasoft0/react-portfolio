@@ -30,10 +30,17 @@ export const NavLogo = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+   
+`
+export const NavLogoImgWrapper= styled.div`
+    height: 5rem;
+    width: 5rem;
 `
 
+
 export const NavLogoImg = styled.img`
-    height: 4rem;
+    height: 100%;
+    width: 100%;
     /* width: 5rem; */
     border-radius: 50%;
     margin-right: 2rem;
@@ -43,6 +50,7 @@ export const NavLogoText = styled(Link)`
     font-size: 1.6rem;
     color: #fff;
     text-decoration: none;
+    padding-left: 2rem;
 `
 
 export const NavMenu = styled.div`
