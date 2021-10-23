@@ -13,7 +13,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 const Footer = ({profile}) => {
     return (
         <FooterWrapper>
-            <FooterImg src={profile}/>
+            <FooterImg src={profile} alt="personal image"/>
             <FooterText to='#'>Pius Prince</FooterText>
             <FooterLinksWrapper>
                 <FooterLink to="#github">
