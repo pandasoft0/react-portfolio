@@ -114,6 +114,7 @@ export const Testimonial3 = styled.figure`
 
 export const TestimonialImage = styled.img`
     height: 4rem;
+    width: 4rem;
     border-radius: 50%;
 `
 
