@@ -5,7 +5,8 @@ import {
     FooterText,
     FooterLinksWrapper,
     FooterLink,
-    FooterMessage
+    FooterMessage,
+    FooterLogoWrapper
 } from './FooterElements'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
@@ -13,8 +14,12 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 const Footer = ({profile}) => {
     return (
         <FooterWrapper>
-            <FooterImg src={profile} alt="personal image"/>
-            <FooterText to='#'>Pius Prince</FooterText>
+
+            <FooterLogoWrapper>
+                <FooterImg src={profile} alt="personal image"/>
+                <FooterText to='#'>Pius Prince</FooterText>
+
+            </FooterLogoWrapper>
             <FooterLinksWrapper>
                 <FooterLink to="#github">
                     <FaGithub />
