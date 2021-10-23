@@ -73,6 +73,7 @@ export const Testimonial1 = styled.figure`
 
     @media ${device.tablet} {
         border-radius: 1.2rem;
+        margin: 2rem 2rem;
     }
 `
 export const Testimonial2 = styled.figure`
@@ -89,6 +90,9 @@ export const Testimonial2 = styled.figure`
 
     @media ${device.tablet} {
         border-radius: 1.2rem;
+        margin: 2rem 2rem;
+        
+
     }
 `
 export const Testimonial3 = styled.figure`
@@ -103,6 +107,8 @@ export const Testimonial3 = styled.figure`
 
     @media ${device.tablet} {
         border-radius: 1.2rem;
+        margin: 2rem 2rem;
+
     }
 `
 
