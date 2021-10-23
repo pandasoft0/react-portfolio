@@ -20,14 +20,26 @@ export const FooterWrapper = styled.footer`
 
 `
 
-export const FooterImg = styled.img`
+export const FooterLogoWrapper = styled.div`
+    display: flex;
+ 
+`
 
+export const FooterImg = styled.img`
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
 `
 
 export const FooterText = styled(Link)`
     font-size: 1.6rem;
     color: #fff;
     text-decoration: none;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 `
 
 export const FooterLinksWrapper = styled.div`
