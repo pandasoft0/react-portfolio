@@ -21,7 +21,7 @@ const Header = ({headerSVG}) => {
             
                 
                 <HeaderRightWrapper>
-                    <HeaderSVG src={headerSVG}/>
+                    <HeaderSVG src={headerSVG} alt="header image"/>
                 </HeaderRightWrapper>
         
           
