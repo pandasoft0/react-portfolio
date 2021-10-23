@@ -16,7 +16,7 @@ const Navbar = ({profile}) => {
     return (
         <NavWrapper>
             <NavLogo>
-                <NavLogoImg src={profile}/> 
+                <NavLogoImg src={profile} alt="profile image"/> 
                 <NavLogoText to='#'>Pius Prince</NavLogoText>
             </NavLogo>
           
