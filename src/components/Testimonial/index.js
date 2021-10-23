@@ -28,7 +28,7 @@ const Testimonial = ({profile}) => {
 
             <RightTestimonial>
                 <Testimonial1>
-                    <TestimonialImage src={profile}/>
+                    <TestimonialImage src={profile} alt="testimonial profile image"/>
                     <PersonName>Person 1</PersonName>
                     <PersonCompany>Company 1</PersonCompany>
                     <RightTestimonialText>
@@ -38,7 +38,7 @@ const Testimonial = ({profile}) => {
                 </Testimonial1>
 
                 <Testimonial2>
-                    <TestimonialImage src={profile}/>
+                    <TestimonialImage src={profile} alt="testimonial profile image"/>
                     <PersonName>Person 2</PersonName>
                     <PersonCompany>Company 2</PersonCompany>
                     <RightTestimonialText>
@@ -48,7 +48,7 @@ const Testimonial = ({profile}) => {
                 </Testimonial2>
 
                 <Testimonial3>
-                    <TestimonialImage src={profile}/>
+                    <TestimonialImage src={profile} alt="testimonial profile image"/>
                     <PersonName>Person </PersonName>
                     <PersonCompany>Company 3</PersonCompany>
                     <RightTestimonialText>
