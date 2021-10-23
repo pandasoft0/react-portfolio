@@ -24,7 +24,7 @@ export const HeaderLeftWrapper = styled.div`
     justify-content: center;
     align-items: center;
 
-    /* @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         padding-top: 5rem;
     }
 
@@ -36,7 +36,7 @@ export const HeaderLeftWrapper = styled.div`
 
 
     @media ${device.tablet} {
-        width: 100%;
+        width: 120%;
         margin-top: 25%;
     }
 
@@ -51,14 +51,14 @@ export const HeaderLeftWrapper = styled.div`
         height: 80%;
         padding-top: 5rem;
         padding-bottom: 5rem;
+      
     }
 
     @media ${device.mobileS} {
-
         margin: 1rem 0;
         height: 90%;
         padding-top: 2rem ;
-    } */
+    }
 
     
 `
@@ -69,8 +69,8 @@ export const HeaderMainText = styled.h1`
     font-weight: 700;
     color: white;
     text-align: left;
-    margin-top: 10rem;
     overflow: hidden;
+    margin-bottom: 5rem;
 
     @media screen and (min-width: 768px) and (max-width: 1024px) {
         padding-bottom: 2rem;
@@ -133,17 +133,16 @@ export const HeaderBtn = styled.button`
     }
 
     @media screen and (min-width: 769px) and (max-width: 1024px) {
-        margin-top: -8rem;
-        margin-left: 8rem;
     }
 
 
     @media ${device.tablet} {
-        margin-left: 40%;
+        display: flex;
+        align-self: center;
     }
 
     
-    @media screen and (min-width: 378px) and (max-width: 420px) {
+    /* @media screen and (min-width: 378px) and (max-width: 420px) {
         margin-top: -3rem;
         margin-left: 8rem;
     }
@@ -156,7 +155,7 @@ export const HeaderBtn = styled.button`
     @media ${device.mobileS} {
         margin-left: 2rem;
         margin-top: 2rem;
-    }
+    } */
 
 
 `
@@ -167,10 +166,10 @@ export const HeaderRightWrapper = styled.div`
     align-items: center;
     margin: 8rem 0rem 6rem 8rem;
 
-/* 
-    @media ${device.laptop} {
+
+    @media ${device.tablet} {
         display: none;
-    } */
+    }
 
 
 `
