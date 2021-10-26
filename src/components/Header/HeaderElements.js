@@ -9,6 +9,11 @@ export const HeaderWrapper = styled.section`
     height: 100vh;
     border-radius: 0 0 2rem 2rem;
 
+    @media ${device.tablet} {
+        display: grid;
+        place-items: center;
+        grid-template-columns: none;
+    }
 
 
     @media ${device.mobileM} {
