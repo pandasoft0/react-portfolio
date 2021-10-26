@@ -10,9 +10,9 @@ export const NavWrapper = styled.nav`
     align-items: center;
     background-image: linear-gradient(to right, #33345A, #051937);
     
-    @media ${device.tablet} {
+    /* @media ${device.tablet} {
         white-space: nowrap;
-    }
+    } */
 
     @media screen and (min-width: 425px) and (max-width: 768px) {
         display: flex;
@@ -30,6 +30,7 @@ export const NavLogo = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
    
 `
 export const NavLogoImgWrapper= styled.div`
@@ -78,6 +79,7 @@ export const NavBtn = styled.button`
     background-color: #60ECBD;
     border-radius: 1rem;
     border: 0 solid;
+    white-space: nowrap;
 
     &:hover {
         transform: scale(1.1);
