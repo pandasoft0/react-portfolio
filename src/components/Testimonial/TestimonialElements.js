@@ -37,6 +37,10 @@ export const LeftTestimonialHeading = styled.h1`
     font-size: 3.125rem;
     margin-bottom: 3rem;
     color: #051937;
+
+    @media ${device.tablet} {
+        text-align: center;
+    }
 `   
 
 export const LeftTestimonialSub = styled.p`
