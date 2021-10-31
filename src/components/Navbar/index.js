@@ -24,9 +24,9 @@ const Navbar = ({profile}) => {
             </NavLogo>
           
           <NavMenu>
-              <NavLink to='#'>Home</NavLink>
-              <NavLink to='#'>Projects</NavLink>
-              <NavLink to='#'>Services</NavLink>
+              <NavLink to='/'>Home</NavLink>
+              <NavLink to='/projects'>Projects</NavLink>
+              <NavLink to='/services'>Services</NavLink>
     
           </NavMenu>
 
