@@ -17,7 +17,7 @@ const Footer = ({profile}) => {
 
             <FooterLogoWrapper>
                 <FooterImg src={profile} alt="personal image"/>
-                <FooterText to='#'>Pius Prince</FooterText>
+                <FooterText to='/'>Pius Prince</FooterText>
 
             </FooterLogoWrapper>
             <FooterLinksWrapper>
