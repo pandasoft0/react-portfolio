@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Projects = () => {
+const ProjectsPage = () => {
     return (
-       <h1>Hello</h1>
+       <h1>Welcome to the projects page</h1>
     )
 }
 
-export default Projects
+export default ProjectsPage
