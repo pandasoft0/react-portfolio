@@ -41,7 +41,7 @@ export const HeaderLeftWrapper = styled.div`
 
 
     @media ${device.tablet} {
-        width: 120%;
+        width: 100%;
         margin-top: 25%;
     }
 
@@ -181,6 +181,7 @@ export const HeaderRightWrapper = styled.div`
 
 export const HeaderSVG = styled.img`
     background-size: cover;
-
+    width: 100%;
+    height: auto;
 `
 
