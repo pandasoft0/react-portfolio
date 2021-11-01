@@ -10,7 +10,6 @@ export const NavWrapper = styled.nav`
     background-image: linear-gradient(to right, #33345A, #051937);
     padding: 2rem 2rem;
     
-    
     /* @media ${device.tablet} {
         white-space: nowrap;
     } */
@@ -56,9 +55,12 @@ export const NavLogoText = styled(Link)`
 `
 
 export const NavMenu = styled.div`
-    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+
+   
     
-@media ${device.mobileL} {
+@media ${device.tablet} {
     display: none;
 }
 `
@@ -67,7 +69,8 @@ export const NavLink = styled(Link)`
     text-decoration: none;
     font-size: 1.6rem;
     color: #fff;
-    padding: 5rem;
+    padding: 0 2rem;
+    white-space: nowrap;
 
     &:hover {
         color: #60ECBD;
@@ -87,7 +90,7 @@ export const NavBtn = styled.button`
         transition: all .2s ease-out;
     }
 
-    @media ${device.mobileL} {
+    @media ${device.tablet} {
     display: none;
 }
 `
@@ -95,7 +98,7 @@ export const NavBtn = styled.button`
 export const NavMobileMenu = styled.div`
     display: none;
 
-    @media ${device.mobileL} {
+    @media ${device.tablet} {
     display: block;
     position: sticky;
     top: 4rem;
