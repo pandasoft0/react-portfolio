@@ -48,7 +48,7 @@ export const Mobile = styled.img`
 
 export const ProjectMenu = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
     @media ${device.tablet} {
       display: flex;
@@ -67,5 +67,9 @@ export const ProjectMenu = styled.div`
 export const ProjectLink = styled(Link)`
     font-size: 1.6rem;
     text-decoration: none;
-    padding: 1rem 5rem;
+
+    @media ${device.tablet} {
+        padding: 2rem;
+}
+    
 `
