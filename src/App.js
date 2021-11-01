@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import ServicesPage from './pages/ServicesPage/ServicesPage';
+import AboutPage from './pages/AboutPage/AboutPage';
 
 function App() {
   return ( 
@@ -16,6 +17,10 @@ function App() {
 
         <Route exact path='/'>
           <HomePage />
+        </Route>
+
+        <Route path='/about'>
+          <AboutPage />
         </Route>
 
         <Route path='/projects'>
