@@ -28,7 +28,7 @@ const Navbar = ({profile}) => {
               <NavLink to='/about'>About me</NavLink>
               <NavLink to='/projects'>Projects</NavLink>
               <NavLink to='/services'>Services</NavLink>
-    
+
           </NavMenu>
 
             <NavBtn>Hire Me</NavBtn>
