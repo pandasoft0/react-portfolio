@@ -20,11 +20,12 @@ const Navbar = ({profile}) => {
                 <NavLogoImgWrapper>
                     <NavLogoImg src={profile} alt="profile image"/> 
                 </NavLogoImgWrapper>
-                <NavLogoText to='#'>Pius Prince</NavLogoText>
+                <NavLogoText to='/'>Pius Prince</NavLogoText>
             </NavLogo>
           
           <NavMenu>
               <NavLink to='/'>Home</NavLink>
+              <NavLink to='/about'>About me</NavLink>
               <NavLink to='/projects'>Projects</NavLink>
               <NavLink to='/services'>Services</NavLink>
     
